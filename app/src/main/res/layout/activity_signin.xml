@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/primary_background_theme"
     tools:context=".ui.activity.MainActivity">
 
     <ImageView
@@ -23,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/font_bold"
         android:text="@string/welcome"
-        android:textColor="@color/black"
+        android:textColor="@color/textcolor"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/app_name"
-        android:textColor="@color/black"
+        android:textColor="@color/textcolor"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,9 +79,28 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.493" />
 
+    <!--
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:background="@color/zxing_transparent"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/signinlanguage"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInButton"
+        app:layout_constraintVertical_bias="0.686"
+        android:onClick="onClickChangeLanguage"/>
+     -->
 
     <ImageView
-        android:id="@+id/languageButton"
+        android:id="@+id/language"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

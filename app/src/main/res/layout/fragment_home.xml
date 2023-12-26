@@ -31,7 +31,7 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/welcome"
                     android:fontFamily="@font/font_regular"
-                    android:textColor="@color/black"
+                    android:textColor="@color/textcolor"
                     android:textSize="20sp"
                     />
                 <TextView
@@ -42,7 +42,7 @@
                     android:layout_marginTop="8dp"
                     android:text="@string/user_name"
                     android:fontFamily="@font/font_black"
-                    android:textColor="@color/black"
+                    android:textColor="@color/textcolor"
                     android:textSize="24sp"
                     />
             </LinearLayout>
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/your_activities"
                 android:fontFamily="@font/font_bold"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 

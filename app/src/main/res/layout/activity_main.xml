@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:background="@color/primary_background_theme">
     >
 
     <androidx.fragment.app.FragmentContainerView
@@ -19,7 +20,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white"
+        android:background="@color/navbar_background"
         app:menu="@menu/activity_bottom_menu"
         android:layout_alignParentBottom="true"
         />

@@ -4,9 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
 import android.content.Intent
-import android.content.res.Configuration
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.Toast
 import androidx.activity.viewModels
 import com.example.attendz.R
@@ -15,7 +13,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.GoogleAuthProvider
-import java.util.Locale
 
 class SignInActivity : AppCompatActivity() {
     companion object {
@@ -39,25 +36,7 @@ class SignInActivity : AppCompatActivity() {
             finish() // finish the current activity to prevent the user from coming back to the SignInActivity using the back button
         }
 
-        val langBtn = findViewById<ImageView>(R.id.languageButton)
-        var isKhmer = false
 
-        langBtn.setOnClickListener {
-            if (isKhmer) {
-                // Switch back to English
-                restoreLanguage()
-            } else {
-                // Switch to Khmer
-                changeLanguage(Locale("km"))
-            }
-            // Toggle the language flag
-            isKhmer = !isKhmer
-        }
-
-        /*val langImg = findViewById<ImageView>(R.id.language)
-        langImg.setOnClickListener{
-            changeLanguage(Locale("en"))
-        }*/
 
 
         val signInButton = findViewById<Button>(R.id.signInButton)
@@ -104,38 +83,4 @@ class SignInActivity : AppCompatActivity() {
                 }
             }
     }
-
-    private var currentLocale: Locale = Locale("en")
-
-    private fun changeLanguage(locale: Locale) {
-        val resources = resources
-
-        // Save the current locale before changing it
-        if (currentLocale.language == Locale("en").language) {
-            currentLocale = resources.configuration.locale
-        }
-
-        val configuration = Configuration(resources.configuration)
-        configuration.setLocale(locale)
-        resources.updateConfiguration(configuration, resources.displayMetrics)
-
-        // Finish and restart the activity
-        finish()
-        startActivity(intent)
-    }
-
-    private fun restoreLanguage() {
-        // Check if the current locale is different from the default language
-        if (currentLocale.language != Locale("en").language) {
-            val resources = resources
-            val configuration = Configuration(resources.configuration)
-            configuration.setLocale(currentLocale)
-            resources.updateConfiguration(configuration, resources.displayMetrics)
-
-            // Finish and restart the activity
-            finish()
-            startActivity(intent)
-        }
-    }
-
 }

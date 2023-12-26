@@ -2,7 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary_background_theme">
 
     <com.budiyev.android.codescanner.CodeScannerView
         android:id="@+id/scanner_view"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:text="@string/join_event"
         android:fontFamily="@font/font_bold"
-        android:textColor="@color/white"
+        android:textColor="@color/textcolor"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
         />
@@ -46,7 +47,7 @@
             android:src="@drawable/ic_qr_white" />
 
         <TextView
-            android:textColor="@color/white"
+            android:textColor="@color/textcolor"
             android:layout_margin="24dp"
             android:gravity="center"
             android:layout_width="240dp"

@@ -40,8 +40,8 @@
 
     <!-- Setting-->
     <string name="empty"> </string>
-    <string name="language">🌎 ប្តូរភាសា 🇺🇸</string>
-    <string name="theme">☀️ ស្បែកផ្ទៃប្រើប្រាស់ 🌙</string>
+    <string name="language">ប្តូរភាសា</string>
+    <string name="theme">ស្បែកផ្ទៃប្រើប្រាស់</string>
     <string name="history">ប្រវត្តិនៃព្រឹត្តិការណ៍</string>
 
     <!-- ViewAll navbar-->

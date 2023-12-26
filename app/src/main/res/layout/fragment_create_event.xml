@@ -12,7 +12,7 @@
         android:layout_margin="16dp"
         android:text="@string/create_event"
         android:fontFamily="@font/font_black"
-        android:textColor="@color/black"
+        android:textColor="@color/textcolor"
         android:textSize="34sp"
         android:textStyle="bold" />
 
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="@string/event_policy"
         android:fontFamily="@font/font_bold"
-        android:textColor="@color/black"
+        android:textColor="@color/textcolor"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p1"
         android:fontFamily="@font/font_regular"
-        android:textColor="@color/black" />
+        android:textColor="@color/textcolor" />
 
     <TextView
         android:padding="8dp"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p2"
         android:fontFamily="@font/font_regular"
-        android:textColor="@color/black" />
+        android:textColor="@color/textcolor" />
     <TextView
         android:padding="8dp"
         android:textSize="12dp"
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:text="@string/p3"
         android:fontFamily="@font/font_regular"
-        android:textColor="@color/black"
+        android:textColor="@color/textcolor"
         />
 
     <Button

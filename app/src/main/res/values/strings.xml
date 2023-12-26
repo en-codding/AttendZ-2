@@ -39,8 +39,8 @@
 
     <!-- Setting-->
     <string name="empty"> </string>
-    <string name="language">🌎 Language  🇰🇭</string>
-    <string name="theme">☀️ Theme 🌙</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
     <string name="history">History</string>
     <string name="log_out">Log Out</string>
 

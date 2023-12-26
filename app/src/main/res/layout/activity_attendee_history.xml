@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/primary_background_theme"
     tools:context=".ui.activity.AttendeeHistory">
     <LinearLayout
         android:layout_margin="16dp"
@@ -31,7 +32,7 @@
                 android:layout_marginStart="-14dp"
                 android:fontFamily="@font/font_black"
                 android:text="@string/event_name"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:textSize="24sp" />
 
             <TextView
@@ -42,7 +43,7 @@
                 android:textColor="@color/black" />
             <TextView
                 android:id="@+id/eventDate"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:layout_marginStart="-14dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
