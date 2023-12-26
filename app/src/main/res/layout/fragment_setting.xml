@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary_background_theme"
+    >
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/font_black"
+        android:text="@string/setting"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImg"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="384dp"
+        android:background="@drawable/rounded_shape_black"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/language"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/danger_rounded_shape"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/log_out"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/themeButton"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_shape_black"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/theme"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/logOutButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayName"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/user_name"
+        android:fontFamily="@font/font_bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

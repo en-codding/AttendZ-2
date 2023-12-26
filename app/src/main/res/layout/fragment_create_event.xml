@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_background_theme"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/create_event"
+        android:fontFamily="@font/font_black"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/eventNameInput"
+        android:layout_width="324dp"
+        android:layout_height="64dp"
+        android:background="@drawable/input_border"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="16dp"
+        android:fontFamily="@font/font_bold"
+        android:hint="@string/event_name"/>
+
+    <TextView
+        android:id="@+id/errorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_event_error_msg"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event_policy"
+        android:fontFamily="@font/font_bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textSize="12dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p1"
+        android:fontFamily="@font/font_regular"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:padding="8dp"
+        android:textSize="12dp"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p2"
+        android:fontFamily="@font/font_regular"
+        android:textColor="@color/black" />
+    <TextView
+        android:padding="8dp"
+        android:textSize="12dp"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/p3"
+        android:fontFamily="@font/font_regular"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_margin="64dp"
+        android:id="@+id/createEventButton"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:drawableStart="@drawable/ic_qr_white"
+        android:gravity="center"
+        android:paddingLeft="60dip"
+        android:paddingRight="60dip"
+        android:background="@drawable/rounded_shape_black"
+        android:text="@string/generate_qr"
+        android:fontFamily="@font/font_bold"
+        android:textColor="@color/white" />
+
+</LinearLayout>

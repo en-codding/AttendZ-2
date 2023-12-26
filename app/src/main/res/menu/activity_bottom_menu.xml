@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuHome" android:iconTint="@color/navbar_item" android:icon="@drawable/ic_home" android:title="@string/home"/>
+    <item android:id="@+id/mnuCreateEvent" android:iconTint="@color/navbar_item" android:icon="@drawable/ic_create_event" android:title="@string/create_event"/>
+    <item android:id="@+id/mnuJoinEvent" android:iconTint="@color/navbar_item" android:icon="@drawable/ic_join_event" android:title="@string/join_event"/>
+    <item android:id="@+id/mnuSetting" android:iconTint="@color/navbar_item" android:icon="@drawable/ic_setting" android:title="@string/setting"/>
+</menu>

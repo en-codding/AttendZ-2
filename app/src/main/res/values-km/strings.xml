@@ -1,0 +1,72 @@
+<resources>
+    <!-- SignInPage-->
+    <string name="app_name">AttendZ</string>
+    <string name="welcome">សូមស្វាគមន៍</string>
+    <string name="sign_in">ចូលគណនី</string>
+    <string name="log_out">ចាកចេញពីគណនី</string>
+    <string name="google">ភ្ជាប់ជាមួយនឹងគណនី Google</string>
+    <string name="sign_up">បង្កើតគណនីថ្មី</string>
+    <string name="or">ឬ</string>
+    <string name="signinlanguage">ប្តូរទៅភាសាអង់គ្លេស 🇺🇸</string>
+
+    <!-- Home-->
+    <string name="user_name">អ្នកប្រើប្រាស់</string>
+    <string name="active_events">ព្រឹត្តិការណ៍បច្ចុប្បន្ន:</string>
+    <string name="past_events">ព្រឹត្តិការណ៍មុនៗ</string>
+    <string name="view_all">មើលទាំងអស់ ></string>
+    <string name="view_full_history">មើលប្រវត្តិទាំងអស់ ></string>
+
+    <!-- NavBar-->
+    <string name="home">ទំព័រដើម</string>
+    <string name="create_event">បង្កើតកម្មវិធី</string>
+    <string name="join_event">ចូលរួមកម្មវិធី</string>
+    <string name="setting">ការកំណត់</string>
+
+    <string name="joined_event">ព្រឹត្តិការណ៍ដែលបានចូលរួម</string>
+
+    <!-- CreateEvent-->
+    <string name="event_name">ឈ្មោះព្រឹត្តិការណ៍</string>
+    <string name="generate_qr">បង្កើតកូដ QR</string>
+    <string name="attendance">អ្នកចូលរួម</string>
+    <string name="host_name">អ្នកបង្កើត</string>
+    <string name="event_date">ការបរិច្ឆេទ</string>
+
+    <!--Attendee list-->
+    <string name="backtoqr">ត្រឡប់ទៅកាន់ QR វិញ</string>
+
+    <!--Attendee list of ended event-->
+    <string name="export">ទាញយកជាឯកសារ</string>
+    <string name="event_date_history">កាលបរិច្ឆេទ: 12 Sep 2024 12:00am</string>
+
+    <!-- Setting-->
+    <string name="empty"> </string>
+    <string name="language">🌎 ប្តូរភាសា 🇺🇸</string>
+    <string name="theme">☀️ ស្បែកផ្ទៃប្រើប្រាស់ 🌙</string>
+    <string name="history">ប្រវត្តិនៃព្រឹត្តិការណ៍</string>
+
+    <!-- ViewAll navbar-->
+    <string name="your_activities">សកម្មភាពរបស់អ្នក</string>
+    <string name="your_event">ព្រឹត្តិការណ៍របស់អ្នក</string>
+    <string name="participated_event">ព្រឹត្តិការណ៍ដែលបានចូលរួម</string>
+
+    <string name="event_policy">*ការណែនាំ &amp; របៀបប្រើប្រាស់:</string>
+    <string name="p1">
+        ១. អ្នកអាចបង្កើតបានតែ ១ ព្រឹត្តិការណ៍ប៉ុណ្ណោះក្នុងពេលមួយ ជាមួយនឹងរយៈពេល និងការចូលរួមគ្មានដែនកំណត់។
+    </string>
+    <string name="p2">
+        ២. មានតែអ្នកប៉ុណ្ណោះដែលអាចមើលចំនួនអ្នកចូលរួម និងព័ត៌មានលម្អិតនៃព្រឹត្តិការណ៍ដូចជា ឈ្មោះគណនីអ្នកចូលរួម, កាលបរិច្ឆេទ ឬកំណត់ត្រាពេលវេលានៃអ្នកចូលរួម។
+    </string>
+    <string name="p3">
+        ៣. នៅពេលណាដែលអ្នកបានបង្កើតព្រឹត្តិការណ៍រួចរាល់ហើយ នោះអ្នកនឹងពុំអាចធ្វើអីបានទាំងអស់ទៅលើកម្មវិធី ក្រៅពីបង្ហាញកូដ QR ទៅកាន់អ្នកចូលរួម ឆែកមើលទិន្នន័យនៃអ្នកចូលរួម
+        និងបិទបញ្ចប់ព្រឹត្តិការណ៍។ អ្នកអាចបង្កើត ឬចូលរួមព្រឹត្តិការណ៍ណាមួយផ្សេងទៀតដរាបណាអ្នកបានបិទព្រឹត្តិការណ៍ដែលអ្នកកំពុងតែសកម្មជាមុនសិន។
+    </string>
+
+    <string name="qr_desc">សូមឲ្យអ្នកចូលរួមព្រឹត្តិការណ៍របស់អ្នកស្កេននូវកូដ QR នេះដើម្បីចូលរួម។</string>
+    <string name="view_attendee_list">មើលបញ្ជីអ្នកចូលរួម</string>
+    <string name="close_event">បិទព្រឹត្តិការណ៍</string>
+
+    <!-- error -->
+    <string name="create_event_error_msg">ឈ្មោះព្រឹត្តិការណ៍គឺត្រូវតែមាន ៨ តួអក្សរជាអតិបរមា។</string>
+    <string name="qr_scanner_desc">ដាក់កាម៉េរារបស់អ្នកអោយចំទៅនឹងកូដ QR របស់អ្នកបង្កើតព្រឹត្តិការណ៍។</string>
+
+</resources>
